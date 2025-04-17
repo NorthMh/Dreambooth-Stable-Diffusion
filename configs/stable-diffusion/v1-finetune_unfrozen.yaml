@@ -85,7 +85,7 @@ data:
         size: 512
         set: train
         per_image_tokens: false
-        repeats: 100
+        repeats: 15 # Note: this parameter may be needed to modified based on the number of your input imgs, please refer to test.txt for more explanation
     reg:
       target: ldm.data.personalized.PersonalizedBase
       params:
